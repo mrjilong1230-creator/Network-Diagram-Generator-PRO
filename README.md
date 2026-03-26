@@ -1,4 +1,4 @@
-# 👑 网络图一键生成 PRO (标书高规格工业版)
+# 👑 标书双代号网络图一键生成 PRO (高规格工业版)
 **Network Diagram Generator PRO**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
