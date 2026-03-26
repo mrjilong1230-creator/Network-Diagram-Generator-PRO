@@ -2,10 +2,12 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { viteSingleFile } from 'vite-plugin-singlefile'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    viteSingleFile() // 🌟 核心：启用单文件打包插件
+    viteSingleFile()
   ],
+  build: {
+    outDir: 'docs' // 🌟 新增这一行：告诉引擎打包到 docs 文件夹
+  }
 })
