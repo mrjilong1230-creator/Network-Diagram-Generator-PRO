@@ -44,8 +44,11 @@ B1, 4, A1
 B2, 4, A2, B1
 C1, 2, B1
 C2, 2, B2, C1
-🚀 本地开发部署 / Local Development
+```
+## 🚀 本地开发部署 / Local Development
 如果您希望在本地运行或进行二次开发：
+
+Bash
 # 1. 克隆仓库
 git clone [https://github.com/mrjilong1230-creator/Network-Diagram-Generator-PRO.git](https://github.com/mrjilong1230-creator/Network-Diagram-Generator-PRO.git)
 
@@ -58,5 +61,5 @@ npm run dev
 
 # 4. 编译打包终极单文件版 (输出至 docs 目录)
 npm run build
-📄 开源协议 / License
+## 📄 开源协议 / License
 本项目基于 MIT License 协议开源，您可以自由使用、修改和分发，但请保留原作者版权声明。
